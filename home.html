@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	<title> Sitio | Mantra producciones</title>
+	<link rel="shortcut icon" type="image/x-icon" href="images/mantra.ico" />
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
+	<link rel="stylesheet" type="text/css" href="css/lightbox.css">
+	<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" languange="javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" languange="javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" languange="javascript" src="js/main.js"></script>
+	<div id="fb-root"></div>
+	<script>
+		(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.4";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+		function cambiar(id,color){
+				document.getElementById(id).style.backgroundColor=color;
+		}
+	</script>
+	<script src="https://apis.google.com/js/platform.js" async defer>
+  			{lang: 'es'}
+	</script>
+	<style>
+		.navbar-nav>.active>a{
+			background-color:#f0f0f0;
+			color:black;
+		}
+	</style>
+</head>
+<body data-spy="scroll" data-target="#cabecera"> <!--oncontextmenu="return false" onkeydown="return false"-->
+	<body>
+		<div class="container">
+			<div id="principal">
+				<section id="home">
+					<div id="menu">
+						<nav class="animated fadeIn navbar navbar-inverse navbar-fixed-top retraso">
+							<div class="navbar-header page-scroll" role="navigation">
+								<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+									<span class="sr-only">Cambiar Navegaci&oacute;n</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+							</div>
+							<div class="collapse navbar-collapse navbar-ex1-collapse animated fadeIn retraso">
+									<ul class="nav navbar-nav">
+										<li><a title="Home" style="font-family: 'Lobster', cursive;font-weight:normal;" href="#home" class="navbar-brand"><i class="glyphicon glyphicon-home"></i> Mantra Prods.</a></li>
+										<li><a class="page-scroll" href="#servicios">Servicios</a></li>
+										<li><a class="page-scroll" href="#galeria">Galer&iacute;a</a></li>
+										<li><a class="page-scroll" href="#contactanos">Contacto</a></li>
+										<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Acerca de<b class="caret"></b></a>
+											<ul class="dropdown-menu">
+												<li><a href="#mision">Misi&oacute;n</a></li>
+												<li><a href="#perfil">Perfil</a></li>
+												<li><a href="#historia">Historia</a></li>
+											</ul>
+										</li>
+										<li><a id="volver" title="Volver al Inicio de Mantra..." onMouseMove="cambiar('volver','#999999');" onMouseOut="cambiar('volver','#f0f0f0');" style="color:black;background-color:#f0f0f0;border-radius:5px;" href="index.php">Volver</a></li>
+									</ul>
+							</div>	
+						</nav>
+					</div>
+						<div id="cabecera">
+							<section id="miSlide" class="carousel slide auto animated fadeIn retraso-1">
+									<ol class="carousel-indicators">
+										<li data-target="#miSlide" data-slide-to="0" class="active"></li>
+										<li data-target="#miSlide" data-slide-to="1"></li>
+										<li data-target="#miSlide" data-slide-to="2"></li>
+									</ol>
+									<div class="carousel-inner">
+											<div class="item active">
+												<img src="images/mantra2.jpg" class="img-responsive adaptar">
+											</div>
+											<div class="item">
+												<img src="images/foto4.jpg" class="img-responsive adaptar">
+											</div>
+											<div class="item">
+												<img src="images/foto7.jpg" class="img-responsive adaptar">
+											</div>
+									</div>
+									<a href="#miSlide" class="left carousel-control" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+									<a href="#miSlide" class="right carousel-control" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+							</section>
+						</div>
+				</section>
+				<table class="redes_sociales animated bounceInDown retraso-1">
+						<tr><td><a href="https://www.facebook.com/mantraprods" target="__blank"><img src="images/facebook.png" width="40" height="40" title="Visitanos en Facebook"></a></td></tr>
+						<tr><td><a href="http://www.twitter.com"><img src="images/twitter.png" width="40" height="40" title="Visitanos en Twitter"></a></td></tr>
+						</tr><td><a href="http://www.youtube.com"><img src="images/youtube.png" width="40" height="40" title="Visitanos en Youtube"></a></td></tr>
+						<tr><td><a href="https://plus.google.com"><img src="images/google+.png" width="40" height="40" title="Visitanos en Google+"></a></td></tr>
+						<tr><td><div class="fb-share-button" data-href="https://www.facebook.com/mantraprods" data-layout="button_count"></div></td></tr>
+				</table>
+				<div id="contenido" class="animated fadeInDown">
+						<section id="bienvenida" class="animated fadeInDown retraso-1">
+							<div class="container" style="width:auto;margin:0 auto;height:auto;background-color:#F7F8E0;">
+									<h3 style="font-family: 'Lobster', cursive;font-weight:normal;font-size:45px;text-align:center;color:#084B8A;">Cordial Bienvenida</h3>
+									<br>
+								<div align="justify" id="texto"  class="alert alert-default animated fadeInDown contenido2">
+									<p>
+										"Estimados/as visitantes,<font color="black"><strong> Mantra producciones</strong></font> 
+										les desea la mas cordial de las bienvenidas a nuestro sitio web oficial.
+										En &eacute;l encontrar&aacute;s la mas actualizada  
+										informaci&oacute;n acerca de nosotros como empresa, nuestras noticias y 
+										servicios relacionados con la producci&oacute;n de eventos,
+										sonido y más.
+										Contamos con una galer&iacute;a de imagenes la cual muestra nuestros mejores trabajos,
+										tambien videos demostrativos y formas de contacto, recuerda que tenemos promociones y 
+										ofertas muy convenientes para t&iacute;".
+										<br><br>
+										<font color="black"><strong><u>Staff de Mantra producciones.</u></strong></font>
+									</p>
+								</div>
+								<br><br><br><br>
+							</div>
+						</section>
+						<br><br><br>
+						<section id="servicios" class="animated fadeInDown retraso-2">
+							<div class="container" style="width:auto;margin:0 auto;">
+								<br><br>
+								<h3 style="font-family: 'Lobster', cursive;font-weight:normal;font-size:45px;text-align:center;">Servicios</h3>
+								<br>
+								<div align="center" id="texto"  class="animated fadeInDown contenido2">
+									<font color="black">
+										Para nosotros entregar calidad y fidelidad en nuestros servicios es fundamental. 
+										<br>
+										Para complementar lo dicho anteriormente Mantra producciones les ofrece a nuestros futuros y actuales clientes:
+									</font>
+								</div>
+								<br><br><br><br>
+								<div class="row" style="width:0 auto;align:center">
+										<div class="col-md-4" align="center">
+											<img width="200px" height="200px" src="images/sonido.jpg" class="img-circle">
+											<div class="title" style="font-family: 'Lobster', cursive;font-size:25px;"><strong>Amplificaci&oacute;n de sonido</strong></div>
+										</div>
+										<div class="col-md-4" align="center">
+											<img width="200px" height="200px" src="images/luces.jpg" class="img-circle">
+											<div class="title" style="font-family: 'Lobster', cursive;font-size:25px;"><strong>Iluminaci&oacute;n</strong></div>
+										</div>
+										<div class="col-md-4" align="center">
+											<img width="200px" height="200px" src="images/dj.jpg" class="img-circle"></a>
+											<div class="title" style="font-family: 'Lobster', cursive;font-size:25px;"><strong>DJ`s</strong></div>
+										</div>
+									</div>
+							</div>
+						</section>
+						<br><br><br><br><br><br><br>
+						<section id="galeria" class="bg-light-gray animated fadeInDown retraso-3">
+							<div align="center" class="container" width="800px" style="width:auto;margin:0 auto;">
+								<div class="col-lg-12">
+									<br><br><br>
+									<h3 style="font-family: 'Lobster', cursive;font-weight:normal;font-size:45px;">Galer&iacute;a de fotos</h3>
+									<br>
+								</div>
+								<div class="row" style="width:0 auto;">
+									<div class="col-md-4">
+										<a href="images/foto1.jpg" data-lightbox="galeria" data-title="Con nosotros encontrar&aacute;s las mejores producciones"><img width="300px" height="300px" src="images/foto1.jpg" class="img-thumbnail"></a>
+										<div class="title"><strong>Producciones</strong></div>
+									</div>
+									<div class="col-md-4">
+										<a href="images/foto2.jpg" data-lightbox="galeria" data-title="Dedicacion en los detalles al 100%"><img width="300px" height="300px" src="images/foto2.jpg" class="img-thumbnail"></a>
+										<div class="title"><strong>Dedicacion</strong></div>
+									</div>
+									<div class="col-md-4">
+										<a href="images/foto3.jpg" data-lightbox="galeria" data-title="Nos comprometemos a entregarte el mejor servicio"><img width="300px" height="300px" src="images/foto3.jpg" class="img-thumbnail"></a>
+										<div class="title"><strong>Compromiso</strong></div>
+									</div>
+									<div class="col-md-4">
+										<a href="images/foto10.jpg" data-lightbox="galeria" data-title="Con nosotros encontrar&aacute;s las mejores producciones"><img width="300px" height="300px" src="images/foto10.jpg" class="img-thumbnail"></a>
+										<div class="title"><strong>Producciones</strong></div>
+									</div>
+									<div class="col-md-4">
+										<a href="images/foto8.jpg" data-lightbox="galeria" data-title="Dedicacion en los detalles al 100%"><img width="300px" height="300px" src="images/foto8.jpg" class="img-thumbnail"></a>
+										<div class="title"><strong>Dedicacion</strong></div>
+									</div>
+									<div class="col-md-4">
+										<a href="images/foto9.jpg" data-lightbox="galeria" data-title="Nos comprometemos a entregarte el mejor servicio"><img width="300px" height="300px" src="images/foto9.jpg" class="img-thumbnail"></a>
+										<div class="title"><strong>Compromiso</strong></div>
+									</div>
+								</div>
+							</div>
+						</section>
+						<section id="contactanos" class="animated fadeInDown retraso-3">
+							<div class="container" style="width:auto;margin:0 auto;">
+								<br><br>
+								<h3 style="font-family: 'Lobster', cursive;font-weight:normal;font-size:45px;text-align:center;">Cont&aacute;ctanos</h3>
+								<div align="justify" id="texto"  class="animated fadeInDown contenido2">
+									<font color="black">
+										Somos una empresa moderna y que constantemente debe integrarse a las diferentes tecnolog&iacute;as y nuevos desaf&iacute;os de la actualidad, por esa y muchas razones m&aacute;s 
+										nos hemos integrado a las redes sociales
+										con mayor popularidad, siguenos en ellas para que te mantengas al tanto de nuestros trabajos servicios, promociones, ofertas y tambi&eacute;n para contactarnos,
+										realizar cualquier tipo de consulta, estamos para orientarte y entregarte siempre el mejor servicio.
+										<br>
+									</font>
+								</div>
+									<div class="col-md-2" align="center">
+										<img width="64px" height="64px" src="images/whatsapp.png" class="img-circle">
+										<div class="title" style="font-family: 'Lobster', cursive;font-size:15px;"><strong>+56999123845</strong></div>
+									</div>
+									<div class="col-md-2" align="center">
+										<img width="64px" height="64px" src="images/facebook2.png" class="img-circle">
+										<div class="title" style="font-family: 'Lobster', cursive;font-size:15px;color:#08298A;"><a href="https://www.facebook.com/mantraprods" target="__blank"><strong>/mantraprods</strong></a></div>
+									</div>
+									<div class="col-md-2" align="center">
+										<img width="64px" height="64px" src="images/twitter2.png" class="img-circle"></a>
+										<div class="title" style="font-family: 'Lobster', cursive;font-size:15px;color:#0174DF;"><strong>Twitter</strong></div>
+									</div>
+									<div class="col-md-2" align="center">
+										<img width="64px" height="64px" src="images/google+2.png" class="img-circle"></a>
+										<div class="title" style="font-family: 'Lobster', cursive;font-size:15px;color:#DF0101;"><strong>Google+</strong></div>
+									</div>
+									<div class="col-md-2" align="center">
+										<img width="64px" height="64px" src="images/youtube2.png" class="img-circle"></a>
+										<div class="title" style="font-family: 'Lobster', cursive;font-size:15px;color:#B40404;"><strong>Youtube</strong></div>
+									</div>
+									<div class="col-md-2" align="center">
+										<img width="64px" height="64px" src="images/instagram2.png" class="img-circle"></a>
+										<div class="title" style="font-family: 'Lobster', cursive;font-size:15px;color:#61210B;"><strong>Instagram</strong></div>
+									</div>
+							</div>
+						</section>
+						<section id="mision" class="animated fadeInDown retraso-3">
+							<div class="container" style="width:auto;margin:0 auto;">
+								<br><br>
+								<h3 style="font-family: 'Lobster', cursive;font-weight:normal;font-size:45px;text-align:center;">Misi&oacute;n</h3>
+								<div align="justify" id="texto"  class="animated fadeInDown contenido2">
+										<font color="black">Nosotros luchamos por entregar mas que un servicio una "Experiencia". Y por esto nos hemos distinguido, 
+											queremos que tanto nuestro clientes como el publico disfrute y recuerde sus momentos importantes y que vibren con nuestra 
+											"Experiencia Mantra".</font> 
+
+								</div>
+							</div>
+						</section>
+						<section id="historia" class="animated fadeInDown retraso-4">
+							<div class="container" style="width:auto;margin:0 auto;">
+								<h3 style="font-family: 'Lobster', cursive;font-weight:normal;font-size:45px;text-align:center;">Perfil de Mantra Prod.</h3>
+								<div align="justify" id="texto"  class="animated fadeInDown contenido2">
+										<font color="black">Mantra producciones es una productora de eventos, 
+											con muchos años de trayectoria, la cual se ha consolidado con el tiempo gracias al apoyo de nuestro clientes.
+											Entregamos servicio profesional de Audio, Video e Iluminación en: Amplificaciones, Matrimonios, Fiestas, Coros, 
+											Bandas, Recitales, Grabaciones, Post-Producciones, Playback, Amplificacion en rodajes, Teatro, Conferencias, 
+											Seminarios, Eventos Empresariales, Eventos Privados etc. 
+											Siempre preocupados del trato agradable con nuestros clientes, el profesionalismo y la fidelidad de sonido e 
+											iluminacion.</font> 
+								</div>
+							</div200					</section>
+						<section id="perfil" class="animated fadeInDown retraso-4">
+							<div class="container" style="width:auto;margin:0 auto;">
+								<h3 style="font-family: 'Lobster', cursive;font-weight:normal;font-size:45px;text-align:center;">Breve Historia</h3>
+								<div align="justify" id="texto"  class="alert alert-info animated fadeInDown contenido2">
+										<font color="black">
+											<strong>
+												Esta empresa nace en 1990 gracias a Sergio Moya, quien fund&oacute; Mantra Producciones. 
+												Desde aquella fecha ha realizado un sin fin de eventos y producciones, con las cuales nos hemos consolidado. 
+												La experiencia y el profesionalismo son los pilares fundamentales de esta productora. 
+												Hemos realizado eventos tales como: Pulsar '11, '12, '13, Festivales de Jazz en Colorado, 
+												Eventos privados de la Cámara Nacional de Comercio, etc.
+												Descripción larga
+												Mantra Producciones es una productora de eventos, con muchos años de trayectoria, 
+												la cual se ha consolidado con el tiempo gracias al apoyo de nuestro clientes.
+											</strong>
+										</font>
+								</div>
+							</div>
+						</section>
+				</div>
+				<div id="seperacion">
+					<br>
+				</div>
+				<div id="footer">
+					<center>
+						<br><br>
+					<font>&copy;Desarrollado por Vicente Mi&ntilde;o, vicente.mibarra@gmail.com <? echo date("Y"); ?></font>
+					</center>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" languange="javascript">
+			$(document).ready(function(){
+  
+	        $(window).scroll(function(){
+	            if ($(this).scrollTop() > 100) {
+	                $('.scrollup').fadeIn();
+	            } else {
+	                $('.scrollup').fadeOut();
+	            }
+	        });
+	  
+	        $('.scrollup').click(function(){
+	            $("html, body").animate({ scrollTop: 0 }, 600);
+	            return false;
+	        });
+	  
+	    });
+		</script>
+		<a href="#" class="scrollup">Scroll</a>
+		<script type="text/javascript" languange="javascript" src="js/lightbox.js"></script>
+</body>
+</html>
